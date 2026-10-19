@@ -1,12 +1,19 @@
-Task 6: Metro Smart-Card Fare System
-Objective
-To implement and validate the fare calculation logic of a city metro smart-card system using C++.
+# Task 06: Control Structures and Fare Logic
 
-Description
-This task focuses on calculating the metro fare based on the passenger's journey details. The program can validate the input and calculate the applicable fare according to the defined fare rules.
+- Source: `main.cpp`
+- Output screenshot: `output_screenshot.png`
+- Captured stdout: `output.txt`
+- Compiler diagnostics: `compile_log.txt`
 
-Programming Language
-C++
+Compile with:
+```bash
+g++ -std=c++17 -Wall -Wextra -pedantic main.cpp -o program
+```
+Run with:
+```bash
+./program
+```
 
-Testing
-Test the program with valid journey details and boundary cases to verify the fare calculation.
+Compiler used while preparing this pack: g++ (Debian 14.2.0-19) 14.2.0.
+
+**Evidence note:** This source is the task demonstration included in the pack. Review it against the exact task wording in the original assignment and add any required personal prediction, measurements, or explanation before submission.
