@@ -1,0 +1,9 @@
+Benchmark instructions and measurements (this environment; timings are not guaranteed to match your laptop).
+
+Build -O0, compile return code 0; stderr: (none)
+non-inline: checksum=2050000000 34088 us
+inline:     checksum=2050000000 34220 us
+
+Build -O2, compile return code 0; stderr: (none)
+non-inline: checksum=2050000000 19364 us
+inline:     checksum=2050000000 22054 us

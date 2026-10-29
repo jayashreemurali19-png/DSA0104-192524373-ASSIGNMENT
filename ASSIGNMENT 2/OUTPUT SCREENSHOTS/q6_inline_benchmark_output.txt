@@ -1,0 +1,2 @@
+non-inline: checksum=2050000000 34415 us
+inline:     checksum=2050000000 34777 us

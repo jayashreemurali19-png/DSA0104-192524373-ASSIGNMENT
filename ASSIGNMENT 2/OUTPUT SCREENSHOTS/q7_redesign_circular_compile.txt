@@ -1,0 +1,3 @@
+Command: g++ -std=c++17 -Wall -Wextra <source> -o <executable>
+Return code: 0
+Compiler stderr:

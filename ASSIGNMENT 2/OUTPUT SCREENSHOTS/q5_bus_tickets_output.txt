@@ -1,0 +1,8 @@
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+Esha: Waiting
+Farhan: Waiting
+Shared issued count: 3

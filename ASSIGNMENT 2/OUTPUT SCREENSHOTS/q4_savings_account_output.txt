@@ -1,0 +1,6 @@
+Account: SA1001
+Balance: 1150
+Recent transactions (positive=deposit, negative=withdrawal):
+200
+-100
+50
