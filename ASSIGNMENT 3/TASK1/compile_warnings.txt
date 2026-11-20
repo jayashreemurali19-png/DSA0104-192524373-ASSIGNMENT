@@ -1,0 +1,10 @@
+Q1/Q1.cpp: In constructor 'OrderDemo::OrderDemo()':
+Q1/Q1.cpp:27:9: warning: 'OrderDemo::second' will be initialized after [-Wreorder]
+   27 |     int second;
+      |         ^~~~~~
+Q1/Q1.cpp:26:9: warning:   'int OrderDemo::first' [-Wreorder]
+   26 |     int first;
+      |         ^~~~~
+Q1/Q1.cpp:28:5: warning:   when initialized here [-Wreorder]
+   28 |     OrderDemo() : second(20), first(10) {}
+      |     ^~~~~~~~~

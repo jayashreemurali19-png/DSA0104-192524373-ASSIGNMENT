@@ -1,0 +1,17 @@
+Q1/array_requires_default.cpp: In function 'int main()':
+Q1/array_requires_default.cpp:6:26: error: no matching function for call to 'Book::Book()'
+    6 | int main() { Book shelf[3]; } // intentionally fails: no matching Book()
+      |                          ^
+Q1/array_requires_default.cpp:4:5: note: candidate: 'Book::Book(const std::string&)'
+    4 |     Book(const std::string&) {} // no default constructor
+      |     ^~~~
+Q1/array_requires_default.cpp:4:5: note:   candidate expects 1 argument, 0 provided
+Q1/array_requires_default.cpp:2:7: note: candidate: 'constexpr Book::Book(const Book&)'
+    2 | class Book {
+      |       ^~~~
+Q1/array_requires_default.cpp:2:7: note:   candidate expects 1 argument, 0 provided
+Q1/array_requires_default.cpp:2:7: note: candidate: 'constexpr Book::Book(Book&&)'
+Q1/array_requires_default.cpp:2:7: note:   candidate expects 1 argument, 0 provided
+Q1/array_requires_default.cpp:6:19: warning: unused variable 'shelf' [-Wunused-variable]
+    6 | int main() { Book shelf[3]; } // intentionally fails: no matching Book()
+      |                   ^~~~~
