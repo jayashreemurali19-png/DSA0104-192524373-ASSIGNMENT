@@ -1,0 +1,8 @@
+Q2/Q2.cpp: In function 'void byValue(Prescription)':
+Q2/Q2.cpp:30:27: warning: unused parameter 'p' [-Wunused-parameter]
+   30 | void byValue(Prescription p) { std::cout << "Passed by value.\n"; }
+      |              ~~~~~~~~~~~~~^
+Q2/Q2.cpp: In function 'void byConstReference(const Prescription&)':
+Q2/Q2.cpp:31:43: warning: unused parameter 'p' [-Wunused-parameter]
+   31 | void byConstReference(const Prescription& p) { std::cout << "Passed by const reference.\n"; }
+      |                       ~~~~~~~~~~~~~~~~~~~~^

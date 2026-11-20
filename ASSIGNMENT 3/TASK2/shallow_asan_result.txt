@@ -1,0 +1,1 @@
+Intentional shallow-copy build: AddressSanitizer exited non-zero and reported heap-use-after-free in the destructor after the first owner freed the shared allocation. See shallow_asan_report.txt.
