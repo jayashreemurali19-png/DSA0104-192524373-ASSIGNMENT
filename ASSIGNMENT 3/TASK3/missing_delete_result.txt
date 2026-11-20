@@ -1,0 +1,1 @@
+Intentional missing-delete test: AddressSanitizer/LeakSanitizer exited non-zero and reported a leaked heap allocation. See missing_delete_report.txt.
