@@ -1,0 +1,7 @@
+SANITIZER EXPERIMENT: Task04/original_defective.cpp
+COMPILE: g++ -std=c++17 -Wall -Wextra -fsanitize=address -fno-omit-frame-pointer /mnt/data/DSA01_Assignment4_Package/Source_Code/Task04/original_defective.cpp -o /mnt/data/DSA01_Assignment4_Package/Execution_Outputs/original_defective_asan
+RUN EXIT: 1
+STDOUT:
+
+STDERR / SANITIZER REPORT:
+==539==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
